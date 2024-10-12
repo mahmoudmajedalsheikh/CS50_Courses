@@ -1,0 +1,12 @@
+.nav{
+  background-color: gray;
+}
+
+div[class="container text-center"]{
+  background-color: cyan;
+}
+div > div > div{
+  background-color: yellow;
+}
+
+

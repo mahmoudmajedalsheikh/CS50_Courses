@@ -1,0 +1,59 @@
+
+$color:red;
+
+// div > ul{
+
+// }
+// nesting 
+div{
+  font-size: 18px;
+
+  ul{
+  font-size: 14px;
+  color: $color;
+  }
+}
+
+ul{
+  font-size: 14px;
+  color: $color;
+
+}
+ol{
+  font-size: 18px;
+  color: $color;
+}
+
+// sass varibales.scss:varibales.css
+// sass --watch varibales.scss:varibales.css
+
+
+%message{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.sucess{
+  @extend %message;
+  background-color: green;
+}
+.error{
+  @extend %message;
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+1-viewport
+2-Media Query
+3-Flexbox
+4-Grid
+
+we want our web page adapt with device
+meta data
+|                              we want page to take width of device
+|                                |                  with scale 
+|                                |                      |
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+-Media Types -print ,screen
+-Media Features : height , width, orintation
+
+
+
+
+
+
+
+
+
+
